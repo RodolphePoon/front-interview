@@ -4,7 +4,7 @@
 
 ### Step 1
 
-Based on the data contained in the JSON file src/data.json develop data table in the render function of App.js
+Based on the data contained in the JSON file src/data.json develop a data table in the render function of App.js
 
 |             | Nom de compte | Status du compte | IBAN du compte | Balance du compte |
 |-------------|---------------|------------------|----------------|-------------------|
@@ -15,7 +15,7 @@ Based on the data contained in the JSON file src/data.json develop data table in
 
 Table Cells should have dynamic backgound color based on the following conditions :
 
-- Grey if the account id blocked
+- Grey if the account is blocked
 - Red if the account iban is not FR
 - Orange if the account balance is negative
 
