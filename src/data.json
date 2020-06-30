@@ -1,0 +1,190 @@
+{
+  "accounts" : [ {
+    "resourceId" : "...",
+    "name" : "Compte principal",
+    "product" : "...",
+    "cashAccountType" : "CPAC",
+    "status" : "blocked",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "PRIV",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 5877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "expected",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100777770209299700",
+    "bban" : "BARC12345612345678",
+    "pan" : "5409050000000000",
+    "maskedPan" : "123456xxxxxx1234",
+    "msisdn" : "+49 170 1234567",
+    "currency" : "EUR"
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte Secondaire",
+    "product" : "...",
+    "cashAccountType" : "TRAN",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "ORGA",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : -5877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "interimAvailable",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100667770209299700",
+    "bban" : "...",
+    "pan" : "...",
+    "maskedPan" : "...",
+    "msisdn" : "...",
+    "currency" : "..."
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte DFGDFG",
+    "product" : "...",
+    "cashAccountType" : "TRAN",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "ORGA",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "interimAvailable",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100777770208099700",
+    "bban" : "...",
+    "pan" : "...",
+    "maskedPan" : "...",
+    "msisdn" : "...",
+    "currency" : "..."
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte 12343",
+    "product" : "...",
+    "cashAccountType" : "TRAN",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "ORGA",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 1877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "interimAvailable",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR23400777770209299700",
+    "bban" : "...",
+    "pan" : "...",
+    "maskedPan" : "...",
+    "msisdn" : "...",
+    "currency" : "..."
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte RGEGFDS",
+    "product" : "...",
+    "cashAccountType" : "TRAN",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "ORGA",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : -77.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "interimAvailable",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "CH27100777770209299700",
+    "bban" : "...",
+    "pan" : "...",
+    "maskedPan" : "...",
+    "msisdn" : "...",
+    "currency" : "..."
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte FDERF",
+    "product" : "...",
+    "cashAccountType" : "TRAN",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "ORGA",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 5877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "interimAvailable",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "DE27100777770209299700",
+    "bban" : "...",
+    "pan" : "...",
+    "maskedPan" : "...",
+    "msisdn" : "...",
+    "currency" : "..."
+  }
+  ]
+}
