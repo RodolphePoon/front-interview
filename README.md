@@ -1,5 +1,28 @@
 # front-interview
 
+## Tasks
+
+### Step 1
+
+Based on the data contained in the JSON file src/data.json develop data table in the render function of App.js
+
+|             | Nom de compte | Status du compte | IBAN du compte | Balance du compte |
+|-------------|---------------|------------------|----------------|-------------------|
+| logo banque | Compte A      | Actif            | FRXX           | 2000€             |
+| logo banque | Compte B      | Non actif        | FRXX           | 500€              |
+| logo banque | Compte C      | Non actif        | FRXX           | -250€             |
+
+
+Table Cells should have dynamic backgound color based on the following conditions :
+
+- Grey if the account id blocked
+- Red if the account iban is not FR
+- Orange if the account balance is negative
+
+For the logo part, you can put any square images, make it pretty.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
