@@ -185,6 +185,99 @@
     "maskedPan" : "...",
     "msisdn" : "...",
     "currency" : "..."
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte AZE",
+    "product" : "...",
+    "cashAccountType" : "CPAC",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "PRIV",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : -250,
+      "currency" : "EUR"
+      },
+      "balanceType" : "expected",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100777770209299701",
+    "bban" : "BARC12345612345678",
+    "pan" : "5409050000000000",
+    "maskedPan" : "123456xxxxxx1234",
+    "msisdn" : "+49 170 1234567",
+    "currency" : "EUR"
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte QSD",
+    "product" : "...",
+    "cashAccountType" : "CPAC",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "PRIV",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 2377.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "expected",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100777770209299702",
+    "bban" : "BARC12345612345678",
+    "pan" : "5409050000000000",
+    "maskedPan" : "123456xxxxxx1234",
+    "msisdn" : "+49 170 1234567",
+    "currency" : "EUR"
+  }, {
+    "resourceId" : "...",
+    "name" : "Compte WXC",
+    "product" : "...",
+    "cashAccountType" : "CPAC",
+    "status" : "enabled",
+    "bic" : "...",
+    "linkedAccounts" : "...",
+    "usage" : "PRIV",
+    "details" : "...",
+    "balances" : [ {
+      "balanceAmount" : {
+      "amount" : 1877.78,
+      "currency" : "EUR"
+      },
+      "balanceType" : "expected",
+      "creditLimitIncluded" : true,
+      "lastChangeDateTime" : 12345,
+      "referenceDate" : "...",
+      "lastCommittedTransaction" : "..."
+    }],
+    "_links" : {
+      "balances" : { },
+      "transactions" : { }
+    },
+    "iban" : "FR27100777770209299703",
+    "bban" : "BARC12345612345678",
+    "pan" : "5409050000000000",
+    "maskedPan" : "123456xxxxxx1234",
+    "msisdn" : "+49 170 1234567",
+    "currency" : "EUR"
   }
   ]
 }
