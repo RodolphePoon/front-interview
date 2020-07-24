@@ -54,7 +54,7 @@ API : https://api-adresse.data.gouv.fr/search/?q=colis%C3%A9e
 
 ---
 
-### Bonus Step (Optionnal matters a lot)
+### Bonus Step (Optionnal, but matters a lot)
 
 - Add some tests on your code (Jest/Mocha/Chai/Jasmine)
 - Make a Dockerfile of you project.  
