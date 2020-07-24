@@ -37,6 +37,32 @@ For the logo part, you can put any square images, make it pretty.
 
 ---
 
+### Step 3 Routes
+
+Refactor your previous codes and move all of it to new components/containers
+It will be accessible via `/ibans`
+
+---
+
+### Step 4 Form
+
+Create a React Form which can autocomplete an Address based on a string.
+
+Add it on `/address`
+
+API : https://api-adresse.data.gouv.fr/search/?q=colis%C3%A9e
+
+---
+
+### Bonus Step (Optionnal matters a lot)
+
+- Add some tests on your code (Jest/Mocha/Chai/Jasmine)
+- Make a Dockerfile of you project.  
+- Push it to your Git repo.  
+- Give me ([shengdaliu](https://github.com/shengdaliu)) access to it.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
