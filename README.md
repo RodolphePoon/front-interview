@@ -30,6 +30,13 @@ For the logo part, you can put any square images, make it pretty.
 
 ---
 
+### Step 2 Pagination and Search Bar
+
+- Add pagination to the previous containers/components, show at max 2 IBANs per page.
+- Add a Seach Bar based on the account number, add any other feature you want.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
