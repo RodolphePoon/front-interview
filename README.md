@@ -2,7 +2,14 @@
 
 ## Tasks
 
-### Step 1
+### Mandatory
+
+- Make a Git repo for your code
+- Be careful on your commits and commit messages
+
+---
+
+### Step 1 Managing JSON Raw Data
 
 Based on the data contained in the JSON file src/data.json develop a data table in the render function of App.js
 
