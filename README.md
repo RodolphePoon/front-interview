@@ -52,6 +52,9 @@ Add it on `/address`
 
 API : https://api-adresse.data.gouv.fr/search/?q=colis%C3%A9e
 
+Design example : 
+![Address Form](./public/address.gif)
+
 ---
 
 ### Bonus Step (Optionnal, but matters a lot)
