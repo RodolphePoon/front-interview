@@ -57,10 +57,9 @@ Design example :
 
 ---
 
-### Bonus Step (Optionnal, but matters a lot)
+### Bonus Step (Optional, but matters a lot)
 
 - Add some tests on your code (Jest/Mocha/Chai/Jasmine)
-- Make a Dockerfile of you project.  
 - Push it to your Git repo.  
 - Give me ([shengdaliu](https://github.com/shengdaliu)) access to it.
 
