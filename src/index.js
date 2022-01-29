@@ -17,7 +17,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="iban" element={<Iban />} />
+        <Route path="ibans" element={<Iban />} />
       </Routes>
     </BrowserRouter>
 
