@@ -11,25 +11,43 @@ const MAX_PER_PAGE = 2
 const Table = ({ data, columns }) => {
 
   const [showedData, setShowedData] = useState([])
-
+  const [filter, setFilter] = useState({})
   const [page, setPage] = useState(1)
-  const maxPage = Math.trunc(data.length / MAX_PER_PAGE) + data.length % MAX_PER_PAGE
-
-
+  const [maxPage, setMaxPage] = useState(1)
 
   useEffect(() => {
     const startIndex = (page - 1) * MAX_PER_PAGE
     const endIndex = startIndex + MAX_PER_PAGE
-    const newShowedData = data.slice(startIndex, endIndex)
-    setShowedData(newShowedData)
-  }, [data.length, page])
 
+    const filteredData = data.filter(data => {
+      const keep = Object.keys(filter).reduce((prevKeep, key) => {
+        const regExp = new RegExp(filter[key], 'i');
+        const currKeep = !!data[key].match(regExp)
+        return prevKeep && currKeep
+      }, true)
+      return keep
+    })
+    if (filteredData.length + 1 < endIndex && filteredData.length < data.length) {
+      setPage(1)
+    }
+
+    const newMaxPage = Math.trunc(filteredData.length / MAX_PER_PAGE) + filteredData.length % MAX_PER_PAGE
+    setMaxPage(newMaxPage)
+    const newShowedData = filteredData.slice(startIndex, endIndex)
+    setShowedData(newShowedData)
+  }, [data.length, page, JSON.stringify(filter)])
+
+  const onChange = (key) => (e) => {
+    const value = e.target.value
+    const newFilter = Object.assign({}, filter, { [key]: value })
+    setFilter(newFilter)
+  }
 
 
 
   return <>
     <table>
-      <thead><th></th>{columns.map(({ label }) => <th>{label}</th>)}</thead>
+      <thead><th></th>{columns.map(({ label, accessor }) => <th>{label}<input onChange={onChange(accessor)} value={filter[accessor]} /></th>)}</thead>
       <tbody>
         {showedData.map((account) => {
           let type = ''
