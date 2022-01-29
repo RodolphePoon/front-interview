@@ -1,19 +1,38 @@
 .logo{
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: inline-block;
-  border:1px solid #adb5bd;
-}
-.logo.FR27{
-  background-color: #ffda6a;
-}
-.logo.FR23{
-  background-color: #e685b5;
-}
-.logo.DE27{
-  background-color: #6edff6;
-}
-.logo.CH27{
-  background-color: #20c997;
-}
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #adb5bd
+  }
+  .logo.FR27{
+    background-color: #ffda6a;
+  }
+  .logo.FR23{
+    background-color: #e685b5;
+  }
+  .logo.DE27{
+    background-color: #6edff6;
+  }
+  .logo.CH27{
+    background-color: #20c997;
+  }
+  
+  td,th{
+    border: 1px solid #6c757d;
+    padding:.5em
+  }
+  
+  tr.blocked{
+    background-color: #adb5bd;
+  
+  }
+  tr.foreign{
+    background-color: #e35d6a;
+  
+  }
+  tr.negative{
+    background-color: #ffc107;
+  }
