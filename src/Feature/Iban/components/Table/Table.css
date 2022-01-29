@@ -1,0 +1,17 @@
+
+  td,th{
+    border: 1px solid #6c757d;
+    padding:.5em
+  }
+  
+  tr.blocked{
+    background-color: #adb5bd;
+  
+  }
+  tr.foreign{
+    background-color: #e35d6a;
+  
+  }
+  tr.negative{
+    background-color: #ffc107;
+  }

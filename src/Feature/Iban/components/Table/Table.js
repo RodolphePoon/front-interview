@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react"
+import Logo from "../Logo"
 import './Table.css'
-const Logo = ({ iban }) => {
-  const bank = iban.substring(0, 4)
 
-  return <span className={`logo ${bank}`}>{bank}</span>
-}
 
 const MAX_PER_PAGE = 2
 
@@ -47,9 +44,9 @@ const Table = ({ data, columns }) => {
 
   return <>
     <table>
-      <thead><th></th>{columns.map(({ label, accessor }) => <th>{label}<input onChange={onChange(accessor)} value={filter[accessor]} /></th>)}</thead>
+      <thead><th key='logo'></th>{columns.map(({ label, accessor }) => <th key={accessor}>{label}<input onChange={onChange(accessor)} value={filter[accessor]} /></th>)}</thead>
       <tbody>
-        {showedData.map((account) => {
+        {showedData.map((account, i) => {
           let type = ''
           if (account.status === 'blocked') {
             type = 'blocked'
@@ -62,8 +59,8 @@ const Table = ({ data, columns }) => {
           }
 
           return (
-            <tr className={type}><td><Logo iban={account.iban} /></td>{columns.map(
-              ({ accessor }) => (<td>{account[accessor]}</td>)
+            <tr key={i} className={type}><td key={`${i} logo`}><Logo iban={account.iban} /></td>{columns.map(
+              ({ accessor }) => (<td key={`${i} ${accessor}`}>{account[accessor]}</td>)
             )}
             </tr>)
         }
