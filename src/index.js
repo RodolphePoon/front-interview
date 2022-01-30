@@ -9,7 +9,8 @@ import {
   Route
 } from "react-router-dom";
 
-import Iban from "./Feature/Iban"
+import Iban from "./Feature/Iban/Iban"
+import Address from "./Feature/Address/Address"
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="ibans" element={<Iban />} />
+        <Route path="address" element={<Address />} />
       </Routes>
     </BrowserRouter>
 
